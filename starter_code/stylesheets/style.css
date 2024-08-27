@@ -108,8 +108,24 @@ header h1 {
 /* caja empresas */
 #companies {
     background-color: #F3EAE2;
-
+    height: 200px;
+    text-align: center;
 }
+
+#companies p {
+    text-transform: uppercase;
+    padding: 25px;
+    margin-top: 0;
+}
+
+#companies-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #companies img {
-    height: 50px;
+    height: 40px;
+    padding: 5px;
 }
