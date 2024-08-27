@@ -129,3 +129,35 @@ header h1 {
     height: 40px;
     padding: 5px;
 }
+
+#teams {
+    text-align: center;
+}
+
+#teams ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+    }
+
+#teams ul span {
+    color: #540B51;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#teams ul p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+#welcome {
+    background-color: #540B51;
+    color: white;
+    text-align: center;
+    height: 300px;
+}
